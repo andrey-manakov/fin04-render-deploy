@@ -12,7 +12,7 @@ application
   })
   .get("/random", (req, res) => {
     res.send({
-      number: Math.floor(Math.random() * 100),
+      number: Math.floor(Math.random() * 200),
     });
   });
 
